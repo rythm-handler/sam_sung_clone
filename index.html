@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"></meta>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  ></meta>
+  <title>
+    Samsung India | Mobile | Tablets | TV | Home Appliances
+  </title>
+  <!-- favicon -->
+  <link
+    rel="icon"
+    type="image/png"
+    href="data:image/png;base64,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"
+  ></link>
+
+  <!-- tailwind -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <!-- font awsom -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></link>
+</head>
+
+<body>
+  <!-- navbar -->
+
+  <nav class="bg-white border-gray-200">
+    <div
+      class="flex justify-end w-full"
+      id="navbar-search"
+    >
+      <ul class="flex p-1 font-medium text-black bg-white md:space-x-8 md:flex-row md:mt-2 md:border-0">
+        <li>
+          <a
+            href="#"
+            class="block py-2 px-3 text-black rounded-sm md:bg-transparen md:p-0"
+            aria-current="page"
+          >Support</a>
+        </li>
+
+        <li>
+          <a
+            href="#"
+            class="block py-2 px-3 text-black rounded-sm md:bg-transparen md:p-0"
+            aria-current="page"
+          >
+            For Business
+
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+<div class="max-w-screen-2xl flex items-center justify-between
+ items-center mx-auto p-4">
+  <!-- Logo -->
+  <a href="https://samsung.com/" class="flex items-center space-x-3 rtl:space-x-reverse mx-10">
+    <img
+      style="height: 55px;"
+      src="data:image/png;base64,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"
+      class="h-8"
+      alt="Logo"
+    >
+  </a>
+
+  <div class="flex items-center space-x-4 md:order-2">
+    <div class="relative hidden md:block">
+      <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+        <svg
+          class="w-4 h-4 text-gray-500"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 20 20"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+          />
+        </svg>
+      </div>
+      <input
+        type="text"
+        id="search-navbar"
+        class="block w-full p-2 ps-10 text-sm text-gray-900 rounded-lg bg-white focus:ring-blue-500 focus:border-blue-500"
+        placeholder="Search"
+      />
+    </div>
+
+    <i class="fa-solid fa-cart-shopping text-xl cursor-pointer"></i>
+    <i class="fa-solid fa-user text-xl cursor-pointer"></i>
+
+    <button
+      data-collapse-toggle="navbar-search"
+      type="button"
+      class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-full md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+      aria-controls="navbar-search"
+      aria-expanded="false"
+    >
+      <span class="sr-only">Open main menu</span>
+      <svg
+        class="w-5 h-5"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 17 14"
+      >
+        <path
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M1 1h15M1 7h15M1 13h15"
+        />
+      </svg>
+    </button>
+  </div>
+
+  <div class="items-center justify-start hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+    <ul class="flex flex-col p-1 md:p-0 mt-4 font-medium text-black bg-white md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
+      <li><a href="#" class="block py-2 px-3">Shop</a></li>
+      <li><a href="#" class="block py-2 px-3">Mobile</a></li>
+      <li><a href="#" class="block py-2 px-3">TV & AV</a></li>
+      <li><a href="#" class="block py-2 px-3">Appliances</a></li>
+      <li><a href="#" class="block py-2 px-3">Computing & Displays</a></li>
+      <li><a href="#" class="block py-2 px-3">Accessories</a></li>
+    </ul>
+  </div>
+</div>
+
+  <!-- navbar -->
+
+  <!-- banner -->
+
+  <div class="relative">
+    <img
+      class="w-full h-auto max-w-full"
+      src="https://www.gbnews.com/media-library/animated-gif-showing-the-galaxy-z-fold-7-opening-up-to-show-off-the-new-larger-touchscreen.gif?id=61184838&width=1200&height=600&coordinates=0%2C44%2C0%2C45"
+      alt="Galaxy Z Fold 7 Animation"
+    >
+
+    <!-- Button -->
+
+    <button class="absolute underline bottom-86 right-150 bg-white-600 text-black px-4 py-2 rounded-lg hover:text-black">
+      <a class="">Learn more</a>
+    </button>
+
+    <button class="font-semibold absolute bottom-85 right-120 bg-white-600 text-black px-4 py-2 border border-black rounded-full text-center hover:bg-black hover:text-white">Buy</button>
+  </div>
+
+  <!-- banner end -->
+  <br>
+  <!-- banner 2 -->
+
+  <div class="m-3 relative">
+    <img
+      class="w-full h-auto max-w-full"
+      src="https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/1c3e1dfe-7a51-4a1e-a4fd-99b0091e20fe._CR0,0,3000,1500_.png"
+      alt="Galaxy Z Fold 7 Animation"
+    >
+    <!-- Button -->
+    <button class="font-semibold absolute bottom-54 left-20 bg-white-600 text-black px-4 py-2 border border-black rounded-full text-center hover:bg-black hover:text-white">Buy</button>
+  </div>
+
+  <!-- banner 2 end -->
+
+<section>
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-6 p-8 bg-white-500">
+    <div class="group h-auto bg-gray-100 justify-center">
+      <div class="rounded-lg shadow-md p-6 flex flex-col items-center 
+              transition-transform duration-300 hover:shadow-xl">
+        <h1 class="mt-4 text-2xl font-semibold text-center">Galaxy Z Flip7</h1>
+        <img
+          src="https://i.postimg.cc/HsC3Snqk/zflip-removebg-preview.png"
+          alt="Galaxy Z Flip7"
+          class="transition-transform duration-300 group-hover:scale-110"
+        >
+     <button class="inset-0 flex items-center justify-center 
+                   bg-black text-white px-4 py-2 rounded-full opacity-0 
+                   group-hover:opacity-100 transition-opacity duration-300 font-semibold">Buy</button>      
+        </div>
+    </div>
+    <div class="group h-auto bg-gray-100 justify-center">
+      <div class="rounded-lg shadow-md p-6 flex flex-col items-center 
+              transition-transform duration-300 hover:shadow-xl">
+        <h1 class="mt-4 text-2xl font-semibold text-center">Galaxy Watch8 Classic</h1>
+        <img
+          src="https://i.postimg.cc/W1Xhjtyz/download-removebg-preview.png"
+          alt="Galaxy Z Flip7"
+          class="transition-transform duration-300 group-hover:scale-110"
+        >
+     <button class="inset-0 flex items-center justify-center 
+                   bg-black text-white px-4 py-2 rounded-full opacity-0 
+                   group-hover:opacity-100 transition-opacity duration-300 font-semibold" >Buy</button>      
+        </div>
+    </div>
+ <div class="group h-auto bg-gray-100 justify-center">
+      <div class="rounded-lg shadow-md p-6 flex flex-col items-center 
+              transition-transform duration-300 hover:shadow-xl">
+        <h1 class="mt-4 text-2xl font-semibold text-center">Galaxy Watch8</h1>
+        <img 
+        src="https://i.postimg.cc/jjr6LMQ2/images-1-removebg-preview.png"   
+        alt="Galaxy Z Flip7"
+          class="transition-transform duration-300 group-hover:scale-110"
+        >
+     <button class="inset-0 flex items-center justify-center 
+                   bg-black text-white px-4 py-2 rounded-full opacity-0 
+                   group-hover:opacity-100 transition-opacity duration-300 font-semibold">Buy</button>      
+        </div>
+    </div>
+     <div class="group h-auto bg-gray-100 justify-center">
+      <div class="rounded-lg shadow-md p-6 flex flex-col items-center 
+              transition-transform duration-300 hover:shadow-xl">
+        <h1 class="mt-4 text-2xl font-semibold text-center">Galaxy Book5</h1>
+        <img
+          src="https://i.postimg.cc/bvCBkX6L/images-3-removebg-preview.png"
+          alt="Galaxy Z Flip7"
+          class="transition-transform duration-300 group-hover:scale-110"
+        >
+     <button class="inset-0 flex items-center justify-center 
+                   bg-black text-white px-4 py-2 rounded-full opacity-0 
+                   group-hover:opacity-100 transition-opacity duration-300 font-semibold">Buy</button>      
+        </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- banner 3 -->
+
+  <div class="flex items-center">
+    <div class="w-1/2 flex flex-col justify-center pl-20">
+      <h1 class="text-5xl font-bold">2025 AI TVs</h1>
+      <h2 class="text-xl mt-4">Explore new AI TVs</h2>
+      <!-- Buttons -->
+      <div class="mt-4 flex space-x-6">
+        <button class="underline text-black px-4 py-2 hover:text-gray-700">Learn more</button>
+        <button class="font-semibold border border-black rounded-full px-6 py-2 hover:bg-black hover:text-white">View all</button>
+      </div>
+    </div>
+    <div class="w-1/2">
+      <img
+        class="w-full h-auto"
+        src="https://i.postimg.cc/wT1VZyPZ/i4.png"
+        alt="5 screen"
+      >
+    </div>
+  </div>
+  <!-- banner 3  end-->
+
+<!-- grid card -->
+
+<section>
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-6 p-8 bg-white-500">
+    <div class="group h-auto bg-gray-100 justify-center">
+      <div class="rounded-lg shadow-md p-6 flex flex-col items-center 
+              transition-transform duration-300 hover:shadow-xl">
+        <h1 class="mt-4 text-2xl font-semibold text-center">Neo QLED 8K</h1>
+        <img
+          src="https://i.postimg.cc/0NY3FZqm/download-4-removebg-preview-1.png"
+          alt="Galaxy Z Flip7"
+          class="transition-transform duration-300 group-hover:scale-110"
+        >
+     <button class="inset-0 flex items-center justify-center 
+                   bg-black text-white px-4 py-2 rounded-full opacity-0 
+                   group-hover:opacity-100 transition-opacity duration-300 font-semibold">Buy</button>      
+        </div>
+    </div>
+    <div class="group h-auto bg-gray-100 justify-center">
+      <div class="rounded-lg shadow-md p-6 flex flex-col items-center 
+              transition-transform duration-300 hover:shadow-xl">
+        <h1 class="mt-4 text-2xl font-semibold text-center">The Frame</h1>
+        <img
+          src="https://i.postimg.cc/MGfRprGM/images-5-removebg-preview.png"
+          alt="Galaxy Z Flip7"
+          class="transition-transform duration-300 group-hover:scale-110"
+        >
+     <button class="inset-0 flex items-center justify-center 
+                   bg-black text-white px-4 py-2 rounded-full opacity-0 
+                   group-hover:opacity-100 transition-opacity duration-300 font-semibold">Buy</button>      
+        </div>
+    </div>
+ <div class="group h-auto bg-gray-100 justify-center">
+      <div class="rounded-lg shadow-md p-6 flex flex-col items-center 
+              transition-transform duration-300 hover:shadow-xl">
+        <h1 class="mt-4 text-2xl font-semibold text-center ">Q-Series Soundbar</h1>
+        <img 
+        src="https://i.postimg.cc/vm7YhWq2/images-6-removebg-preview.png"   
+        alt="Galaxy Z Flip7"
+          class="transition-transform duration-300 group-hover:scale-110"
+        >
+     <button class="inset-0 flex items-center justify-center 
+                   bg-black text-white px-4 py-2 rounded-full opacity-0 
+                   group-hover:opacity-100 transition-opacity duration-300 font-semibold">Buy</button>      
+        </div>
+    </div>
+     <div class="group h-auto bg-gray-100 justify-center">
+      <div class="rounded-lg shadow-md p-6 flex flex-col items-center 
+              transition-transform duration-300 hover:shadow-xl">
+        <h1 class="mt-4 text-2xl font-semibold text-center">Smart Monitor M7</h1>
+        <img
+          src="https://i.postimg.cc/ZqQGr0Zs/images-7-removebg-preview.png"
+          alt="Galaxy Z Flip7"
+          class="transition-transform duration-300 group-hover:scale-110"
+        >
+     <button class="inset-0 flex items-center justify-center 
+                   bg-black text-white px-4 py-2 rounded-full opacity-0 
+                   group-hover:opacity-100 transition-opacity duration-300 font-semibold">Buy</button>      
+        </div>
+    </div>
+  </div>
+</section>
+<!-- grid card 2 -->
+
+
+
+
+  <!-- banner 4 -->
+<div class="relative w-full">
+  <img
+    class="w-full h-auto max-w-full"
+    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPERIQDxAQExUPEhUQEA4VDxEPDw8QFRcWFxUWFRYZHyggGBolGxUVITIhJSktMC4uFx8zODMtQygtLisBCgoKDg0OGxAQFy0dHR03MC0tNystKy0tLS0tLS0rLSsrLSsrLS0tLS0tKy0rLS0tLS0tKzcxLS0tKys3LSstK//AABEIAKgBLAMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAAAwEEBQYHAgj/xABJEAACAQICBAcMBgcIAwAAAAAAAQIDEQQhBRIxQQYTIlFhcbEjMjM0coGRkqGys9EHQlJzdMEUU4KDk6LCFUNjo8PS4fAkJWL/xAAZAQEAAwEBAAAAAAAAAAAAAAAAAQIDBAX/xAAhEQEBAAICAQUBAQAAAAAAAAAAAQIRITEDEjJBUWEiE//aAAwDAQACEQMRAD8A4aAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9Qi20km23ZJK7b5kjaNDcCa9W0q74mG2zV6rXk/V8+fQbzovQmHwqtQppPY6suVUl59vmVkZDV58zpw8M+WOXl+ml4zRWHw0YRhShLWlUTlUiqkpKLSWb2eaxaPB4eW3DUfM60fZGaMrwjlnT6ZVn/OjG02VykmVWxvAtFYR7cNFeTVrLtmyPFaFwMIuc1WhFNXaqp2v0ajZfUy04Q+LS6ZRXaUsi2ynwXwUldzxlNfalSnq+l0oh8EMBJ2jpWnBr6s4U7rfneouw6Zo76QHhqcVCCqypRWsteS5LzblbK2fMYL6S+Erx1Bxc13KcZRite7VSMtZLkLKN9V3bvZeeMsdKePyzONfh9FjnBVKeOouLWspum1Bx3PWUmrdJEvooxcvB4rAz/e1E/cZ0TgxH/wBdg3/h4b36ZtdCkpd9FPrSZGmjiMvof0r9VYafVWt7yRomNws6NSpSqK06U5U5q6aU4txkrrJ5pn1fLB04SpSjTpxfGRWsoRjJZO+aV9h8v8K/HsZ+Kr/EkQligAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8apHKS3Z9RJNJ6y26rSd+9TaTtbfk1tI5flkehi461LhH/dddb34mNpGR4Q58V+899GNpnNn7q6Meou6RfUYp5NJp7U0pJ+ZllRRkaCKpX+C0Vh5d9Qpfw4L8jLUuC2Bqd/hoPzzj2Mg0ZE2PCR2EVMXEcPGlRhTpxUYwlRjCK2RiqtNJGdwkTGqjrx1b2zjJO11eMlJXWV1dGRw1Kr9un/Bl/vKpXGLWdL71dkj5V4U+PYz8VX+JI+qp0qjcNZwtGWs7KV3ZNWzfSfKnCfx3F/ia3xJEJYwAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHqCu0ukDusJ5SeWc5/yyceyKLTEzvOm735UoX6HBya/kXoKUJa1aSeyNKM1zXq1KreXPyI+kixFZOooq/c6q6E70pu66OU15j0J05L21/T+yj1VPeRjaRkdOvk0eqp7yNe0jjuKjl3z2dHSc2furfHqL7GaWhQVtst0fm9xhcTwiry72WouaOXt2mJnNybbd29rLnAaPqV3anHZ30m1GEetsy3bxF+IfptWTvKpN/tsyujtPYyg70sTWj0Oo5w9WV4+wnw/BWeq5Sne2erFSTtuvrRvt6Dz/YredKSmlttyrbs7ZpdLSNPRZ2r6o3ngz9J0k1DH0047P0ilFqUemdPetucbeSzrejMVCtCNSlOM4TWtCpFqUZLoZ8xcU4u0lbf1rnT3rpNv4AcK56Pq6s3KWHqPutPN6j2cZBfaW9LalzpWrYtK75I+S+E3juL/ABNb4kj6xU1JKUWmpJSjJO6lF5pp700fJvCXxzFfia3xJFEsaACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACXDK84rnku0iJ8F4Sn5ce1AdfoVOXNr9XRXojJ/1Msqk3xz66Xu1SXDz5U/JpL/AC18y0qy7r+1D3Kp6MnDj3yxmnpWhR8mfvGjY2trzb8y6kbhwmqWp0uinJ/zSNJZx+X3V04dLvReC46ere0YrXnL7MFbZ0ttJdLRtmB1daFGK1YtxjBJRlKm3JctXXKe9325ltwJwkJU6kqjlFSlqSmrLVS1d7yV4yqLPn6DZsPXpyr08Lg4vujUJ1rOMKKeTqKO297cubuluvZrXxTWO1M8uWBxmlKsmsJFU4PjuKqYineXGzU9S+X1dsrLbdPKyRttPROHhRUJyllmqzklVjK1tZP2W2WyZaYngrT0bjFBV4yjONqzg4zlhJZrO6ajZ2ee5yMe6k4SiqqlKTWted4p3zVle2xrNP8AMvFL+LDHYHlSg5Rk0tdT72N3tlG/1XlddN9yMXSTTs1ZrJrenvN5xukaccHKP6PQlJziuOkpupCDcI2i7qzu1faafpOpJ1ZOTu3ZN2Su4chuyyzcW+tsyyjTCuv/AEVaXdbCyw83eWEklHn4md3BeZqa6FqnAuEnjmK/E1viSOo/RNiXHGuN8qtCcXHc5RcJp+ZRl6Wcu4ReN4r8RV9+Rjk1Y4AFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAACfA+Ep+XHtRAT4HwlPy49qEHT8PPlVP3a/y4FrVn3X9uPw6hWhU5VTrh8KBa1KndP3i+FI9H4jj+WP4TZ0qf3Lf80jTWbrpdXjSX+CvbKfyNMqw1W1zOxx+X3V1YdNj4O1ZSoOlBSlKFVyUFa8uNjCP+nuNtwkHg6E9eUqdWcVJRhFKMW7WStnN2bvOTsty2N890FpF4etCedlKLkk87Jp5ej0Nm44rHutOpOUm1N9zltjKne8fZt6TTx5bmmeePO1cFjJxrQmopcuDeS71tXjffdXT57ktGXGRpVJNNqnCOWs27X2t9HNt81i20dRlKrFRWs9ZOzerTVnm5W2RW1vmuZXF3lKDiopQSgmoxhCKTSVktju7t7U2ua5dVcfodSVB1JUpas4qrrakuLkteM73tZKyNM0hLlq+1xU/NUbqRfqzizbdLcIK0aM6E69VU5w7pS18lDmS2Jt2S9OxXNExGMlWqTq1HeVSTk7ZJX2JLckrJLmSM8qvjG+fRStbHwf2KVWb6rKHbNHOOEHjeJ/EVffkdd+h/R7Ua+Kku+th6btm0rTqea/FrzM5Bp7xrEff1ffkY5NViACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAABPgfCU/Lj2ogJsH4SHlx7UTBvtCpyqnlR+FTLZz7p+8XwWUoVM6nlR+HTLdT5cuip/pL5ndvhyycpNIO/FfcR9+oYDSuF+ul19XOZvFyyo/cR9+oRKKZzZc2t5xGpmQ0bparQfIeT2weafyJsdot5yp+ePyMXODTs010PIz5i3FbpozhhSg71KUud0406fFzlu17OOsltSeWWaauiXSnDSEo6tCE0/qylZKF223GOavm8+o0WLPdy/+lV9EX2Jxs6rvJvbe128+dt7X0lxoLR1XF1oUKKvKb2/VhH605c0UvltaPWhODuJxbXFw1YPbWneNNLo3y6kdc4J6Fo4CGpS5Up24ys1y6jXZFbl27SNrabPorB08Jh6eHpLk0oqKbteT2yk7b222+lnzbpt/wDk4j7+p77PpGVXI+bdMeMV/vqnvMpUrMAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE2D8JDy49qISXCPukPLj2omDa6FOUruKm+9d0m13qWfqnia1Wr3vdyd1Z3tb80RU6zSVm1ktjKVKrcrtt2i8277Wvkde+GGkuJllR+4Xv1ClNnivTuqL1pZ0VlybLl1FZZf9uKdJc8vSY3touCkqEJ5Sin1q5WFGPT6z/IljQhzP16nzISph9DYaXfU160l2MzOA0ZhqdnGjTutjcVJrzss8PhqfNL+NWX9RkcPh6S3S/jVv8AeRoZqhiC/wAPiDCU8PS3KX8Wq+2Rd0aNPfH2y+YqWxRr3R8+aV8PW+9n7zO18VSt4OJxHHeEqeXLtZSpQAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA90XaUW9zT9p4PdFLWVyZ2M1Trwe9+Zp+zIrUmt0r+ZpotqujUnbWjdWulK1nbZnldbMiKeFqQy1nnsT39R0f1O4z4Zqq+TR+5Xv1BBmHrYivyU2soWjZLvU5fncjVev9r2R+RlatpscGSRka1x9f7fZ8g6tf8AWP0jZpttCoXdOuaOp1/1svXkj13f9dP15jf4OhUa5eQrHMlTrP8Avp+tL5h4Wo9tWXpb/Mbv0l1GOJzRyHF+En5cu1l3/Zze2fsMfJWbRWpUABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlw6vJdZES4bv49ZOPZV9VctaTVndt2/5K0296tnsJZVYKMIuKvZuUrtSbcpflYiur5bPadVZK4j6nkf1zI0VxUu88j+uZEp9D9hgumRUiU+h+wrr9AE8CRIgjUfN7f+CSM5fZXrP5EieKPaRCpy5l6WelKX/wA+hv8AMgSpGvVNr62Z+8uePqv5mAqbX1srkmPIAKpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkod8gCZ2VdTSdr7lYrTez/u8A3Zq4p955C7ZESYBksrrHl1UgBakWKtuJYY1b0+0oCNml1Sqxlsfm3k0WAWHu5gKm19bAK5JeQAVAAAAAAAAAAAAAAAAAAAAAB//9k="
+    alt="Galaxy Z Fold 7 Animation"
+  >
+  <div class="absolute inset-0 flex items-center justify-end pr-39">
+    <div class="p-6 rounded-lg max-w-md text-left">
+      <h1 class="text-white text-5xl font-bold mb-4">
+     Bespoke AI <br>Laundry Combo
+      </h1>
+      <p class="text-white text-base mb-6">No load transfer
+      </p>
+      <div class="flex text-left gap-4 bg-black">
+        <p class="underline text-white hover:text-white hover:bg-black py-2">
+          Learn more
+        </p>
+        <button class="bg-black font-semibold text-white px-6 py-2 rounded-full border hover:text-black hover:bg-white">
+          Buy
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- banner 4 end -->
+
+
+  <!-- grid -->
+<section>
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-6 p-8 bg-white-500">
+    <div class="group h-auto bg-gray-100 justify-center">
+      <div class="rounded-lg shadow-md p-6 flex flex-col items-center 
+              transition-transform duration-300 hover:shadow-xl">
+        <h1 class="mt-4 text-2xl font-semibold text-center">Bespoke AI Refrigerator</h1>
+        <img
+          src="https://i.postimg.cc/wv6wddRs/download-6-removebg-preview.png"
+          alt="Galaxy Z Flip7"
+          class="transition-transform duration-300 group-hover:scale-110"
+        >
+     <button class="inset-0 flex items-center justify-center 
+                   bg-black text-white px-4 py-2 rounded-full opacity-0 
+                   group-hover:opacity-100 transition-opacity duration-300 font-semibold">Buy</button>      
+        </div>
+    </div>
+    <div class="group h-auto bg-gray-100 justify-center">
+      <div class="rounded-lg shadow-md p-6 flex flex-col items-center 
+              transition-transform duration-300 hover:shadow-xl">
+        <h1 class="mt-4 text-2xl font-semibold text-center">Bespoke AI Laundry</h1>
+        <img
+          src="https://i.postimg.cc/hvYsxzy9/download-7-removebg-preview.png"
+          alt="Galaxy Z Flip7"
+          class="transition-transform duration-300 group-hover:scale-110"
+        >
+     <button class="inset-0 flex items-center justify-center 
+                   bg-black text-white px-4 py-2 rounded-full opacity-0 
+                   group-hover:opacity-100 transition-opacity duration-300 font-semibold" >Buy</button>      
+        </div>
+    </div>
+ <div class="group h-auto bg-gray-100 justify-center">
+      <div class="rounded-lg shadow-md p-6 flex flex-col items-center 
+              transition-transform duration-300 hover:shadow-xl">
+        <h1 class="mt-4 text-2xl font-semibold text-center">Bespoke AI WindFree AC</h1>
+        <img 
+        src="https://i.postimg.cc/8PFtG4cw/download-5-removebg-preview-1.png"   
+        alt="Galaxy Z Flip7"
+          class="transition-transform duration-300 group-hover:scale-110"
+        >
+     <button class="inset-0 flex items-center justify-center 
+                   bg-black text-white px-4 py-2 rounded-full opacity-0 
+                   group-hover:opacity-100 transition-opacity duration-300 font-semibold">Buy</button>      
+        </div>
+    </div>
+     <div class="group h-auto bg-gray-100 justify-center">
+      <div class="rounded-lg shadow-md p-6 flex flex-col items-center 
+              transition-transform duration-300 hover:shadow-xl">
+        <h1 class="mt-4 text-2xl font-semibold text-center">Microwave Ovens</h1>
+        <img
+          src="https://i.postimg.cc/ZYxvCcL8/download-8-removebg-preview.png"
+          alt="Galaxy Z Flip7"
+          class="transition-transform duration-300 group-hover:scale-110"
+        >
+     <button class="inset-0 flex items-center justify-center 
+                   bg-black text-white px-4 py-2 rounded-full opacity-0 
+                   group-hover:opacity-100 transition-opacity duration-300 font-semibold">Buy</button>      
+        </div>
+    </div>
+  </div>
+</section>
+  <!-- grid end-->
+
+  
+<!-- Scroll -->
+<div class="text-2xl text-black font-semibold m-4">
+Recommended for you
+</div>
+<div class="w-full overflow-x-auto m-4">
+  <div class="flex space-x-6 snap-x snap-mandatory px-4">
+    
+    <!-- Card 1 -->
+    <div class="group min-w-[250px] snap-center bg-white rounded-lg shadow-lg p-4 transition-transform duration-300">
+      <div class="overflow-hidden rounded-lg">
+        <img src="https://i.postimg.cc/LXsV5RB4/download-9-removebg-preview.png"
+             class="w-full h-auto transition-transform duration-300 group-hover:scale-110" />
+      </div>
+      <p class="mt-2 font-medium">Galaxy A36 5G</p>
+      <p class="text-gray-600">₹30,999.00</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="group min-w-[250px] snap-center bg-white rounded-lg shadow-lg p-4 transition-transform duration-300">
+      <div class="overflow-hidden rounded-lg">
+        <img src="https://i.postimg.cc/Dymz2zWp/download-10-removebg-preview.png"
+             class="w-full h-auto transition-transform duration-300 group-hover:scale-110" />
+      </div>
+      <p class="mt-2 font-medium">Galaxy A56 5G</p>
+      <p class="text-gray-600">₹41,999.00</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="group min-w-[250px] snap-center bg-white rounded-lg shadow-lg p-4 transition-transform duration-300">
+      <div class="overflow-hidden rounded-lg">
+        <img src="https://i.postimg.cc/28H2Z0S8/download-11-removebg-preview-1.png"
+             class="w-full h-auto transition-transform duration-300 group-hover:scale-110" />
+      </div>
+      <p class="mt-2 font-medium">Galaxy A26 5G</p>
+      <p class="text-gray-600">₹22,999.00</p>
+    </div>
+
+      <!-- Card 4 -->
+    <div class="group min-w-[250px] snap-center bg-white rounded-lg shadow-lg p-4 transition-transform duration-300">
+      <div class="overflow-hidden rounded-lg">
+        <img src="https://i.postimg.cc/prKytGcQ/images-9-removebg-preview.png"
+             class="w-full h-auto transition-transform duration-300 group-hover:scale-110" />
+      </div>
+      <p class="mt-2 font-medium">Galaxy Z Fold 7</p>
+      <p class="text-gray-600">₹1,86,999.00</p>
+    </div>
+
+      <!-- Card 5 -->
+    <div class="group min-w-[250px] snap-center bg-white rounded-lg shadow-lg p-4 transition-transform duration-300">
+      <div class="overflow-hidden rounded-lg">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAKCAgJCRAICAkHCBYICAgICBsICQgKIBciIiAdHx8kKDQsGSYqJx8TLTEhMSkrLjEuFx8/RD84NygtLisBCgoKDg0OFRAPEzEgFhk4Kzc3LDUrLzcuNywrKysrMzg1MSsrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAGwAbAMBIgACEQEDEQH/xAAcAAACAQUBAAAAAAAAAAAAAAAABgcBAwQFCAL/xABJEAABAwIBBQcODAYDAAAAAAABAAIDBBEFBgcSIVETMUFDcZGTFDZEU2FzdIGElLGz0eIWIiYyM0JUYmSkstI1UnKDweEVIyX/xAAYAQEAAwEAAAAAAAAAAAAAAAAAAQIDBP/EAB8RAQEAAgICAwEAAAAAAAAAAAABAhEDURIxITJBBP/aAAwDAQACEQMRAD8AmdCEIBCEIBCEIBCEIBCEIBCEIBCEIBCEINDX5TNgqJIWR7ruLtBzzLufxuHgKxfheO0tPlJ/al3FyRiNdYE2q3karj5xWvlBffS0xf8Ak+IoTo4fDIdpHnR/avJy1A4kede6k519h5ladfYeZDRzOXDRxH5r3VQ5dN7R+a91JJvsPMrTr7HcyGjx8PW9oPnXuq2c4IHYxPlfupGdfYeZWnX2HmQ0fTnDaOxnHyr3VQ5xmDsdwtrJNX/pR84nYeZYddAKiCWB5cxszCwlhs5qGkuZPZbRYnWR0jY3Quna4wSNmFRG8gXKalCOa2hbR45hsEZc8Xle5ztV3bkVNylBezg18lFkxjNXSOMNRDSWilHzo3EgXGw61CsNHVyUFLWHFMd06uATuYKtxawnxqYM6fWfjvgw/W1RzhcWngOF+As9C6ODCZ27UzthPqKafTcXVuKPc43LnTEucedYzoZvteJG22Y+1bmvj0XFayQq148Z+KzKsRzZh2XiPTn2q05047KxA/3z7VfeVYeVXwx6TurTpZ/tWIecH2q2Zp/tNd5wfavbirTiq3GdJ3Xh9VOOyK0+UFW3Vk4t/wB9Yb/iCqvF1SZnx2s7gHjVLitK9yTzBt+qKw6r65z7U05N1T5sPY+ZzpHtkcwPedJxaPSlaqGi3xWTDkp/Dm9/cq5RMPmb83ylw3+mX1TlMyhfN71yYbyS+qcpoUJpUzq9Z2O+DN/W1R/gGvA8LH4FnoT/AJ1us3HfBW/raoyyNxNtXhMFNqbVYdCIzGOOpxvEcnCuv+OyZWVlyz4eMVpb3IS1UxkEpyqdd1o66mBuurk49+mMpakVhxWwqaexKwpIyFzXGtJWM4q2VeLFVkJJAAJJNgBvkqnjU7UpKfdZWg3DQNOQgX0WjWV6p4t1qHyWAaw6RG+AVs6qHqOn6m36yrsZwN+FnA3l2+JYkzhTw7mLF51yEbUymkytZiLruIHAmHJUf+e3vzkrTuuSmvJIXw5vf3LntaQ95vR8o8O5JPVOUzKHM3w+UWH8knqnKY1CaUs6/WbjvgzfWNXO9FLLSdTVEJfC8NEkUjeBdEZ2OszHvBm+sauf6DEWGlhgmAcGRhgPCFpx+/atNWH5QQ4g0MmMdDXHUWvOhSVTvun6p+6VWuY6M2ka9l9YLhqcEozUjH3MLwL/AFXLIo8UqqRu5xvdJCOJkO7RcxXZjz/mTK4dNhOQb7ywZQO4sj4QB309LTPPCY27l6Cq/wDPNH0VJSsPAZG6fpVryYdq+FY1Nh0lS60DHOA+dIRoRs5SVml8WGi0RbWYgRYSNF4qU9zu91YFbjc840ZZBHGN6KH4jQFqzUfVjBud877issuaT6rTDtlyT6BfI87pO83Libhi1c0peTvnk1q64ga3nSOwHUFadPssBsAsufL59tIsOjOx3Mm/I8Xw0d/clUzHaVLOaHJNmKYBJUySyQuixF9OGtZpggNaf8rOrRn5Aj5Q4dySercpfSzgORsWHVjKwSTTyRAtiDm6DGXFvGmZQFrOTQyVmSmN0tK1008tJpRxMGk6SzgSBtOreXLfUk7HFphqmluog07gWnmXZKEHHLWTjiqvoCvYdOOKq+hK7DQp3Rx9uk/aqvoCqEzHiqvoSuwkJujjlzJTvw1fQFew2QNs2GrBO+TAV2GhJTTjcwyniqvoCqdTy9qqugK7JQmxxr1NL2qq6AronMdh01HkuW1cctM6qxKSqiZMzc3uiLWi9vEpBQoAhCEAhCEAhCEAhCEAhCEAhCEAhCEAhCEH/9k="
+             class="w-full h-auto transition-transform duration-300 group-hover:scale-110" />
+      </div>
+      <p class="mt-2 font-medium">Galaxy Tab S9 FE (Wi-Fi, 6 GB Memory)</p>
+      <p class="text-gray-600">₹34,999.00</p>
+    </div>
+
+      <!-- Card 6 -->
+    <div class="group min-w-[250px] snap-center bg-white rounded-lg shadow-lg p-4 transition-transform duration-300">
+      <div class="overflow-hidden rounded-lg">
+        <img src="data:image/jpeg;base64,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"
+             class="w-full h-auto transition-transform duration-300 group-hover:scale-110" />
+      </div>
+      <p class="mt-2 font-medium">7.0 kg Ecobubble™™ Top Load Washing Machi...</p>
+      <p class="text-gray-600">₹17,499.00</p>
+    </div>
+
+      <!-- Card 7 -->
+    <div class="group min-w-[250px] snap-center bg-white rounded-lg shadow-lg p-4 transition-transform duration-300">
+      <div class="overflow-hidden rounded-lg">
+        <img src="data:image/webp;base64,UklGRjYCAABXRUJQVlA4ICoCAAAwGgCdASqVAMIAPp1MoEslqCalKDLpeQATiWlu3WAZqCBiI2LvP5asw+rslXCs0RaoWIiHjfWYu5P5sqtPqLtyZp/NTpm44pg9L8M+yKQexDMYJ4TdLzs5yojpDWZnAnr8GlzjrRGqkWMw6SjlKSoc0ceth/yUInOsAka7pcv3bMOpFY6Npe2zoevEJKi4YeVVBS9JW4DendzfKH8Bj8dhQ8Sj2HEEkJQ6cOpY0hS+4iqO9/fKCvi5ucqIjQ0C+xn9kRT8jbvBQ3qxxYGaQsxjeUmEHDLxIOGWcAD+94xSQxHEXF0hqAZZ+Q5Rfm2FYvbQvjhCNARxx/CJSJLU2eOo36Zi9k+5y2IYEueaM5u37plG/vaile6STVSQ1/9G8mjR0Y0COjcDbO2fBNq6xxZBSI1nUwZrWsl6553GjnqQ/Meuw+s7Cu2kY4GTXY7vPbTVkt6ztgOmNBJHtzVnCUwwR2eJt5G4osIr37Ign5ZwJp3gHxwHiSuvb78pPT5AZegVd46zX9pZtIV627Bs5E6PXlsLcWsUqSqH9Pk2kX0RMFju0q6IFZkd9nBh0+4z4fSmrcFRFZX1NtMAsnf7Y26QJUrBaHb3SEpBW34fmWXWBLWh9hylSUPSvUBJVxHeOPgEsrJ+1YnADz4KujHkmIdSNRnsYgbnzt0J6q93znluNHtwN2aWznPNkKrvNvFtl5m16+87XK7pKU4z019QCt80LghySoIAAAAAAA=="
+             class="w-full h-auto transition-transform duration-300 group-hover:scale-110" />
+      </div>
+      <p class="mt-2 font-medium">236 L Convertible Freezer Double Door Re...</p>
+      <p class="text-gray-600">₹26,490.00</p>
+    </div>
+  </div>
+</div>
+
+<!-- Scroll end -->
+
+
+
+  
+<!-- Scroll -->
+<div class="text-2xl text-black font-semibold m-4 mt-5">
+Explore the stories
+</div>
+<div class="w-full overflow-x-auto m-4">
+  <div class="flex space-x-6 snap-x snap-mandatory px-4">
+    
+    <!-- Card 1 -->
+    <div class="group min-w-[250px] snap-center bg-white rounded-lg shadow-lg p-4 transition-transform duration-300">
+      <div class="overflow-hidden rounded-lg">
+        <img src="https://i.postimg.cc/Y2FkryMg/images-10-removebg-preview.png"
+             class="w-full h-auto transition-transform duration-300 group-hover:scale-110" />
+      </div>
+      <p class="mt-2 font-medium">Samsung Health</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="group min-w-[250px] snap-center bg-white rounded-lg shadow-lg p-4 transition-transform duration-300">
+      <div class="overflow-hidden rounded-lg">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRDki8adj_3J8if-qq6EJ2JhVUSerfZe3GQyrTPn2kNLO9OsXHs"
+             class="w-full h-auto transition-transform duration-300 group-hover:scale-110" />
+      </div>
+      <p class="mt-2 font-medium">Switch to Galaxy</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="group min-w-[250px] snap-center bg-white rounded-lg shadow-lg p-4 transition-transform duration-300">
+      <div class="overflow-hidden rounded-lg">
+        <img src="data:image/png;base64,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"
+             class="w-full h-auto transition-transform duration-300 group-hover:scale-110" />
+      </div>
+      <p class="mt-2 font-medium">One UI</p>
+    </div>
+
+      <!-- Card 4 -->
+    <div class="group min-w-[250px] snap-center bg-white rounded-lg shadow-lg p-4 transition-transform duration-300">
+      <div class="overflow-hidden rounded-lg">
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRs8NM_91Hpr0pPoqoGjLpdugc3zf_TltOk9v-5vvf7ua0VFcYv"
+             class="w-full h-auto transition-transform duration-300 group-hover:scale-110" />
+      </div>
+      <p class="mt-2 font-medium">Samsung Vision AI</p>
+    </div>
+
+      <!-- Card 5 -->
+    <div class="group min-w-[250px] snap-center bg-white rounded-lg shadow-lg p-4 transition-transform duration-300">
+      <div class="overflow-hidden rounded-lg">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAwFBMVEX///8AjfcAjPgAifcAi/gAiPcAiPoAiPaVyv4AhvgAhfUAgfIAfu37//8AhfgAgvPA3vy22v3e7/4Af+rm8/sAguoAe+2q1P2hzfuDwf3R6P31+/7w+P0AhuqpzvUAfO5Yqvvi8f41oPsrmvmMxfx5u/wMkvlIpvvB4P0dl/rU6f0ii+lDl+hisfybxfBvrOt+tO1Sn+uQvO4Pje1xtvw9lOlgp+1KnesAbOQ4me9zse02juauz/GUv++hx/Grz/IVSGvpAAAJ2UlEQVR4nO2de3uiOhCHNSS2Ila8ocVb7RW1VeupdE/V7vf/VgdMokCIjVtr2PPM+9dqiQ8/MsxMJpfN5QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICz0xm6XrXVvtzTblW9caOs+8a+TXlstx9u7lCxWCgUCCEXnODfhUKxSPK3N9dtu6b7Pv+MYevhFgeyDIxQXgZC2CAFgp6uqw3dN3wUZe/6ziDGAWlJoaSAb+9d3fetivvwWDBUxUVVFkf3f4PBtu+ujpfHVRrFp6puAYfpXObJn8qj4OJjS7eKA7Qfv6lv25HkztYtRML49gT6thqLN0PdYtK4Lp5GXwgmbd1yBIZ35GT68ttu7OiWFMfD+JQCA4zHTEWO1gktlIOQp1vWnp8QGDrVzCQ53o8IDHsxIy51iH9GYCBxlA13c3dqJ7PHeNEtLuT6pGEiwVUGUrhx8QcFBq9iV7fA3N0xLyEmpVLlqNxOv522j7BRs/76aXvrzbN1od6ooDlkdB6VOwTXN9ziGnNLuRl60iowd6nchRer6BtVayo74ILe1Cav2hfGMt6w21Mu4tzqkUZpF1Rvc5KsjQ7rik3zRZ1vorIjHYyFtv2KYlus0Z26V6o3+cqbdMe7RGyi+HgQ0RcTHwxFhSVWeek8O44zYwY7VfVSRFtiU1YOFRYV1emFj8R8ps3dgWJrrC1geKoJG/qHNliY248D6v/LlmLzPNFV8r9WNVL+Gj7TPjfm9KOyN9Vmpsqe9LsKdXnToWoX7qx0SgOEQwNcWfU9zKNHPTONLfWk22EhYhI2qfj0g7KnCcxUDKfnQDlWRKKFX7eazEZzG/UnpKlAfKs+zkPPvFF3uIv4PeXmeeNNh8DyMQWogZhbTk315nqy77Fq1r2lmcy8asrRMFSIdbga+6gKlLGMFwYbyqOnLQUdJX5p/QJfmKZ5kRRwMYkmJm4z+XdEglZENi7WMgyWuFLT8Rf9/udi5STuFlkLbqm1WTJQGM570Kq/eHfSn5uWrOYm7Xnj+pS/MUNfkPGL2tr6V/LhWHMuvrtw0szXuNegMC1nM5+jDsVLmqJFFf5OeFHci75ltV6KcWAd4SJltYzpxy9pNFUU4kncCXVWonXoqLh1xKETWiV9uhsPCekKm8mxUTfxYMKfHp1FVIyhqNARh3GLqBjM3sN+7FUrrYVWdklQiH9ckIArBHw8439r1LjddfbdYVi+Tb/url/3GtFy32r3hFbCG0DOH/I9QSGvpw2X1qD5wS6bc7dRmkV7ePjOu6nSp98ESfmg7jMdayGjK55/mF8VFFr0D91mKKrCOpQZHKonVwH12StqsVtfhYGQsA5tOILC8yc1wugQ/Uv/MKd/cOgtdbdCkOBNAu1URY9++k2fxIC9lELSqmGCRkjaDGaYrAxqTunHXzjSUTG8QCIymcJXGiEwizeCN9WgUJiTwUzhKq6wv7TMQfqCw4VjLadMu/+VwvOvdbtMzgGmW2lAo/+xa9VY9+1d2lOe7ruWWSkPHUKRSkPqLSjce5qwOyqzlDaNV6dilqxZ2goL6mlW7DcET5OFPtxFi+6z41iLlCauQ0MHSfE7ufLMcRweLZKZa6Dw/CtrRYX7iN9J3WfQ2Jke7qX9YnnfSoz4mbDS/OBwzPL3YwbuhiSIWVs2rDTIvJMXub8jr1z03dp3Ytn2kzabHJJkpw/z5DV+Tc2qOO9r5jvH0QGxw65Y+1aJJOaHy2kTi4XzD/LTFObNZXQEbIeZCTabVIAbNT2HftfY5gO4Fy1pj4USTnasNB/mn9NdMcZnknrUUmO5JossQ5qdIeuDW6psIYoOhZJSm1l//1zb6/lqwEfqPGWL1Lh56rJzKRfWchO02iwtyc9qeA/li6EwqZTMyK6SCgtl672ZOswsI3VvFLQ6sCBMQ17aUi5585Q85/PVF4MN+2apXBa+Or9CW72o3+Qh42NgIISIxaPhEZV9DeNDcYwvxfzkjWqz1WQ138W/mfr8nIYx/jHrSq30BTFjIb+Wo6FOk1Jrk4GFKiPFV5/bQfkzywsoq9+eJVly30nJzmQK786rbovyssTSb9lPeMqeBt+cURnn60luHIx2S5VS2liYMa8EUbBU+npdtJZ5i9S5pwjE8afj8dies1jRme0dvsft9nXhjcfu5j05FSf82OX5BX61IspZJGoVz0Xnn/nU8+zpR9OZJH6sIcwoJhTqmD88uIY9PmEWsqmE+3zNSqViBo/GnCd/zj64QkrLHPChkI96yQiYmIXKD4SxgntIItGxA6p2oA8tIcdKxj5UF5KUtVi72F2NzqMpgfxAAXMjXJycExQrHruqcJpCPavZn6QKmzyHadgu/+ci3ol8HViu43ncoodSb2M8nFcaQ+pMDR4Bfasy6LFhT2I6iZei+s1SaVdcfZZ1oqYFplXZi1hh/eOH41vEy/uxGqjBB/lb3Xy8uJA9M6JnT3BDtrCNaWJDBy7Gj96+wbptQj9aNHbakg0KOmbxt8jyNlZI+6QlCr6ZJDYYJHQQ3GUxpETDnSfxpnqWJgbcS8yUKWRbRrjXPKSQTXnIFGqYtKC4kiEiu98GvX2evsRiAV/q/b79EvXoMxGn7+kz0rfNcpRupiabBJyGKy4IK5fGF8zyte3DMOVGDsvJJFUNjduCJGa62wO0nlh1PllYiwc75ltyjVfLWvKSt2SfkDYjDe5asu8pbdo+kbCkpD1pU04hKK/xTLCn9BCNfeHKcXI43xQngsVZwy2aEhqKuKiGUuonLhTnk4z35I/NJQu/r7QeASLxNXxr046l6EPMj/glC0mo0FKi2SPdVeJE37PaJM1JxhajlmeysVNBz26SHdK9T+aKrdPLDT/q6Rfh+oa5pG6/J9vArnMH6ZaqtDCMKs33+XTjrw7svjet5Ww6/XiuS/deIEP7QTyHSm7YIOSLw9sQJuTQ+UTkWrfA3PBEB3xJHsAoA+djtn/y6A8N04Yp3KjPkR1LBmw05IizMY7E0Hwmxo6a8jGex4EzcohSgPcj3gY/ZuQgrBDvB3rRGGVIYBAzRqd2N+QpMyZKKb9cnbIb0VU2vGiMFjpZNyIyykQcTNJ9KZzm5DbDuM5AJpOK+1T4vqniwov2ZPsA3m3xW2cMIuPqRvN48EvcF/KnxopwMf+Q5f7jdFtPwYjo2J5ERgG9VLP6/gk0Wi+PRPlQdoSCceTorar/AMGjKI/bb7e4UNgerJ+udHuqfnis/u1D628wzjTKNa91//Y0wmT73yNEuAq+yN/dvF22vEwlZ39Mp1FzXc+2q57tVW3bdt3a/+B/twAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPgr+Q+RorBKnFwk6gAAAABJRU5ErkJggg=="
+             class="w-full h-auto transition-transform duration-300 group-hover:scale-110" />
+      </div>
+      <p class="mt-2 font-medium">Smartthings</p>
+    </div>
+
+  </div>
+</div>
+<!-- Scroll end -->
+
+<!-- policy -->
+ <div class="relative p-5">
+<div class="flex flex-col bg-gray-100 text-black p-1 font-thin">*Images shown here are for representational purpose only, actual may vary. All features, specifications and prices are subject to change without prior notice. Model availability may vary from location to location.
+<br>
+*Image simulated. Samsung account login may be required for certain AI <features class="br"></features>
+
+*Image simulated. Actual UX/UI may differ. Availability of colours, sizes, models, and watch bands may vary by country or carrier. Products sold separately. Running coach    program is available on Android phones (Android 10 or above) and requires Samsung Health app (v6.30.2 or above). Samsung account login required. Service only available with Galaxy Watch8 Series or later released Galaxy Watch Series. To use running coach program, user needs to take a running level test and get a level before starting the coach program.</div>
+
+<!-- policy end-->
+
+  <!-- footer -->
+
+  <footer class="bg-white w-full sm:w-full md:w-full lg:w-full xl:w-full 2xl:w-full">
+    <div class="mx-10 py-12 text-center md:text-left">
+      <div class="grid-1 grid gap-8 md:grid-cols-5 lg:grid-cols-5">
+
+        <div class="border-r-2 border-b-2  border-gray-200">
+          <h6 class="mb-4 flex items-center justify-center font-semibold md:justify-start">Product & Services</h6>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Smartphones</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Tablets</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Audio Sound</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Watches</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Smart Switch</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Mobile Accessories</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">TVs</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Sound Devices</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Refrigerators</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Laundry</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Air Solutions</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Cooking Appliances</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Monitors</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Memory Storage</p>
+        </div>
+
+        <!-- Products section -->
+
+        <div class="border-r-2 border-b-2 border-gray-200">
+          <h6 class="mb-4 flex justify-center font-semibold  md:justify-start">Shop</h6>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">FAQs</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Contact Us</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Welcome Voucher</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Samsung Referral Advantage</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Samsung Student Advantage</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Defence Purchase Program</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Corporate Employee Program</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Corporate Bulk Purchase</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Samsung Experience Store</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Store Locator</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Smart Club</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Terms of use</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Order Grievance Redressal</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Explore</p>
+        </div>
+
+        <!-- Useful links section -->
+
+        <div class="border-r-2 border-b-2 border-gray-200">
+          <h6 class="mb-4 flex justify-center font-semibold md:justify-start">Support</h6>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Whatsapp Us</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Sign language</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Email Us</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Call Us</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Email the CEO</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Community</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Product Registration</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Track Repair</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Service Center</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Share Your Opinion</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Chat With Us</p>
+        </div>
+
+        <div class="border-r-2 border-b-2 border-gray-200">
+          <h6 class="mb-4 flex justify-center font-semibold md:justify-start">Account & Community</h6>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">My Page</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">My Products</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Orders</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Wishlist</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Vouchers</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">My Referrals</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Service</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Community</p>
+        </div>
+
+        <!-- Contact section -->
+
+        <div class="border-b-2 border-gray-200">
+          <h6 class="mb-4 flex justify-center font-semibold  md:justify-start">Sustainability</h6>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Environment</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Security & Privacy</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Accessibility</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">
+            Diversity . Equity . Inclusion
+          </p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Corporate Citizenship</p>
+
+          <h6 class="mb-6 flex justify-center font-semibold  md:justify-start">About Us</h6>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Componyt Info</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Business Area</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Brand Identity</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Careers</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Investor Relations</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Newsroom</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Ethics</p>
+
+          <p class="mb-4 flex items-center justify-center font-awesome  md:justify-start">Samsung Design</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="mx- w-full max-w-screen-2xl mr-0 p-4 py-12lg:py-8">
+      <div>
+        <h2 class="text-xs">
+          Copyright ⓒ 1995-2025 SAMSUNG All Rights reserved.
+
+          <br>
+          Please dispose of e-waste and plastic waste responsibly.
+
+          <br>
+          For more information or e-waste pick up, please call 1800 5 7267864 or click here for more details.
+
+          <br>
+          <br>
+          Registered Office Address: 6th Floor, DLF Centre, Sansad Marg, New Delhi-110001
+
+          <br>
+          Corporate Identification Number (CIN): U31900DL1995PTC071387
+        </h2>
+      </div>
+
+      <hr class="w-full my-6 border-gray-200 dark:border-gray-700 lg:my-8">
+
+      <div class="sm:flex sm:items-center justify-between sm:justify-between">
+       <div class="justify-between gap-6 text-xl>
+        <span class="text-sm text-black sm:text-center gap-4">
+        India/English |
+
+          <a
+            href="https://flowbite.com/"
+            class="hover:underline"
+          >&nbsp;&nbsp; Privacy </a>
+
+&nbsp;&nbsp;&nbsp;Legal&nbsp;&nbsp;&nbsp; CSR Policy&nbsp;&nbsp;&nbsp; Sitemap        </span>
+</div>
+        <div class="flex mt-1 sm:justify-center sm:mt-0">
+          <span class="text-xs font-thin text-gray sm:text-center">Stay in the Loop?</span>
+
+          <a
+            href="#"
+            class="text-gray-500 hover:text-gray-900  "
+          >
+            <svg
+              class="w-4 h-4"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 8 19"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+
+            <span class="sr-only">Facebook page</span>
+          </a>
+
+          <a
+            href="#"
+            class="text-gray-500 hover:text-gray-900   ms-5"
+          >
+            <svg
+              class="w-4 h-4"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 21 16"
+            >
+              <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"></path>
+            </svg>
+
+            <span class="sr-only">Discord community</span>
+          </a>
+
+          <a
+            href="#"
+            class="text-gray-500 hover:text-gray-900   ms-5"
+          >
+            <svg
+              class="w-4 h-4"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 20 17"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+
+            <span class="sr-only">Twitter page</span>
+          </a>
+
+          <a
+            href="#"
+            class="text-gray-500 hover:text-gray-900   ms-5"
+          >
+            <svg
+              class="w-4 h-4"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+
+            <span class="sr-only">GitHub account</span>
+          </a>
+
+          <a
+            href="#"
+            class="text-gray-500 hover:text-gray-900   ms-5"
+          >
+            <svg
+              class="w-4 h-4"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+
+            <span class="sr-only">Dribbble account</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- footer -->
+</body>
+</html>
